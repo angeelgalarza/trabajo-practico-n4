@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+table {
+  margin: 0 auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  background: white;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Encabezados con color diferenciado */
+th {
+  background-color: #f7f2f2;
+  color: rgb(0, 0, 0);
+}
+
+/* Columna de horas */
+.hora {
+  font-weight: bold;
+  background-color: #eaeaea;
+}
+
+
+.materia {
+  font-weight: bold;       /* Materia en negrita */
+  display: block;
+  margin-bottom: 4px;
+}
+
+.profesor {
+  font-style: italic;      /*profesor en cursiva*/
+}
+
+
+td:empty {
+  background-color: #797777; 
+}
+table td:hover {
+  background-color: #9adaff; 
+  cursor: pointer;            
+}
